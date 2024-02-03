@@ -1,0 +1,1 @@
+/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_fake/lib/pkgconfig/turtlebot3_fake.pc
