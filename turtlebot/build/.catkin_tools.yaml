@@ -1,6 +1,0 @@
-devel_space: /home/jashanraj/Research_MoChen/turtlebot/devel
-install: false
-install_space: /home/jashanraj/Research_MoChen/turtlebot/install
-profile: default
-source_space: /home/jashanraj/Research_MoChen/turtlebot/src
-workspace: /home/jashanraj/Research_MoChen/turtlebot

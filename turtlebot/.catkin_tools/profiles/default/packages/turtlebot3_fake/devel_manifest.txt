@@ -1,6 +1,0 @@
-turtlebot3_simulations/turtlebot3_fake
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_fake/cmake.lock /home/jashanraj/Research_MoChen/turtlebot/devel/./cmake.lock
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_fake/lib/pkgconfig/turtlebot3_fake.pc /home/jashanraj/Research_MoChen/turtlebot/devel/lib/pkgconfig/turtlebot3_fake.pc
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_fake/lib/turtlebot3_fake/turtlebot3_fake_node /home/jashanraj/Research_MoChen/turtlebot/devel/lib/turtlebot3_fake/turtlebot3_fake_node
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_fake/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig.cmake /home/jashanraj/Research_MoChen/turtlebot/devel/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig.cmake
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_fake/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig-version.cmake /home/jashanraj/Research_MoChen/turtlebot/devel/share/turtlebot3_fake/cmake/turtlebot3_fakeConfig-version.cmake

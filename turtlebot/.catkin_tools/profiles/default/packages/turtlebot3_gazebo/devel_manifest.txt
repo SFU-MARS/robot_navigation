@@ -1,6 +1,0 @@
-turtlebot3_simulations/turtlebot3_gazebo
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_gazebo/cmake.lock /home/jashanraj/Research_MoChen/turtlebot/devel/./cmake.lock
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_gazebo/lib/turtlebot3_gazebo/turtlebot3_drive /home/jashanraj/Research_MoChen/turtlebot/devel/lib/turtlebot3_gazebo/turtlebot3_drive
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc /home/jashanraj/Research_MoChen/turtlebot/devel/lib/pkgconfig/turtlebot3_gazebo.pc
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake /home/jashanraj/Research_MoChen/turtlebot/devel/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig-version.cmake
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/turtlebot3_gazebo/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake /home/jashanraj/Research_MoChen/turtlebot/devel/share/turtlebot3_gazebo/cmake/turtlebot3_gazeboConfig.cmake

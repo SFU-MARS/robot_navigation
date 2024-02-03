@@ -1,1 +1,0 @@
-/home/jashanraj/Research_MoChen/turtlebot/devel/.private/auto_nav/lib/pkgconfig/auto_nav.pc
