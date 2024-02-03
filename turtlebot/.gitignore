@@ -1,0 +1,16 @@
+# Ignore build and development files in the workspace
+build/
+devel/
+install/
+
+# Ignore logs and temporary files
+*.log
+*.pyc
+*.pyo
+__pycache__/
+*.swp
+
+# Ignore ROS build and configuration directories
+/.catkin_tools/
+/.vscode/
+
