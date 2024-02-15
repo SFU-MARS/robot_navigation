@@ -1,0 +1,11 @@
+<launch>
+    <!-- Launch GMapping -->
+    <include file="$(find husky_robot)/launch/gmapping.launch" />
+
+    <!-- Launch AMCL for localization -->
+    <include file="$(find husky_robot)/launch/amcl.launch" />
+
+    <!-- Launch Move Base for navigation -->
+    <include file="$(find husky_robot)/launch/move_base.launch" />
+</launch>
+
