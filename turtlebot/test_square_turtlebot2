@@ -1,0 +1,35 @@
+import rospy
+from geometry_msgs.msg import Twist
+
+def move_turtlebot():
+    rospy.init_node('square_movement_node', anonymous=True)
+    rate = rospy.Rate(1)
+
+    cmd_vel_pub = rospy.Publisher('/cmd_vel_mux/input/navi', Twist, queue_size=10)
+
+    move_cmd = Twist()
+    move_cmd.linear.x = 0.2
+
+    for _ in range(4):
+        cmd_vel_pub.publish(move_cmd)
+        rospy.sleep(5)
+
+        move_cmd.linear.x = 0.0
+        cmd_vel_pub.publish(move_cmd)
+        rospy.sleep(1)
+
+        move_cmd.angular.z = 1.57
+        cmd_vel_pub.publish(move_cmd)
+        rospy.sleep(2)
+
+        move_cmd.angular.z = 0.0
+        cmd_vel_pub.publish(move_cmd)
+        rospy.sleep(1)
+
+    rospy.spin()
+
+if __name__ == '__main__':
+    try:
+        move_turtlebot()
+    except rospy.ROSInterruptException:
+        pass
