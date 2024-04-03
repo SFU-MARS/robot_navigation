@@ -1,18 +1,22 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 import rospy
-from sensor_msgs.msg import PointCloud2
 from zed_interfaces.msg import ObjectsStamped
 
-def zed_callback(data):
-def zed_distance_publisher():
-    rospy.init_node('zed_distance_publisher', anonymous=True)
-    distance_pub = rospy.Publisher('zed_object_distance', Float64, queue_size=10)
-    rospy.Subscriber('zed/objects', ObjectsStamped, zed_callback)
+def object_callback(msg):
+    # Print the received objects data
+    rospy.loginfo("Received objects data: %s", msg.objects)
+
+def object_listener():
+    rospy.init_node('object_listener', anonymous=True)
+
+    # Subscribe to the object detection topic
+    rospy.Subscriber("/zed2/zed_node/obj_det/objects", ObjectsStamped, object_callback)
+
     rospy.spin()
 
 if __name__ == '__main__':
     try:
-        zed_distance_publisher()
+        object_listener()
     except rospy.ROSInterruptException:
         pass
