@@ -136,7 +136,25 @@ Generating pre-built zip archives for distribution:
 ```sh
 gulp build dist --prod
 ```
+## To use the custom built node
 
+This node publishes the distance of detection objects by subscribing to the topic od_dection from the "roslaunch zed_display_rviz display_zed2.launch" node.
+To use this simply build a new folder in catkin_ws/src 
+```sh
+touch PublishDistance.py 
+```
+and paste the contents of the python file into this. Then in the catkin_ws directory run
+
+```sh
+catkin_build
+```
+
+and now the packages should be built.
+
+Now to run the newly build node: RUN THE ZED2 rviz NODE IN ONE TERMINAL AND IN THE OTHER:
+```sh
+rosrun PublishDistance.py
+```
 
 
 
