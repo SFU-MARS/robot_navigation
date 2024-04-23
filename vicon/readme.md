@@ -1,5 +1,4 @@
-
-# Vicon System in the SFU Robotics Lab (T7000)
+## The First Section of this tutorial is about setting up VICON. At the end there is a link to an existing guide that helps connect ROS with ViCON using a datastream API and a ROS bridge.
 ## Documentation
 
 This guide is meant to be used in tandem with the actual user guide and tutorials.
@@ -36,4 +35,6 @@ This guide is meant to be used in tandem with the actual user guide and tutorial
 - **Potential solution:**
   - Redo the calibrating wand wave process and then place the wand at the origin spot right away.
   - If this does not work, check that the wand's lights are all on, and check the side of the wand that goes on the floor to see if the screws in each arm are evenly tightened.
+ 
+## Credits to Bermett and Trinity.
 
