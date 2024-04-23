@@ -37,4 +37,4 @@ This guide is meant to be used in tandem with the actual user guide and tutorial
   - If this does not work, check that the wand's lights are all on, and check the side of the wand that goes on the floor to see if the screws in each arm are evenly tightened.
  
 ## Credits to Bermett and Trinity.
-
+[Link to connect ROS with VICON tutorial](http://wiki.ros.org/vicon_bridge)
