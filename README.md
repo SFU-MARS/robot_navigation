@@ -13,7 +13,8 @@ Robot-navigation contains the following branches with guides for autonomous navi
 ## Reachability tutorial
 - https://www.youtube.com/watch?v=iWsfc107nRc
 
-## Ros2
+## ROS2
+- [Ros2 crash course](https://roboticsbackend.com/how-to-learn-ros2/)
 - [Instructions for getting started with nav2](https://docs.nav2.org/getting_started/index.html)
 - [A more detailed overview of nav2](https://roboticsbackend.com/ros2-nav2-tutorial/#Start_the_SLAM_functionality_and_RViz)
 - [A big list of tutorials](https://automaticaddison.com/tutorials/) from Automatic Addison. The following are especially relevant:
@@ -25,7 +26,7 @@ Robot-navigation contains the following branches with guides for autonomous navi
   - [Odometry](https://docs.nav2.org/setup_guides/odom/setup_odom.html)
 - [Short explanation of ROS2 composition](https://www.stereolabs.com/docs/ros2/ros2-composition) in the context of the Zed cameras
 
-## Ros1 Noetic
+## ROS1 (Noetic)
 ### Basic Introductions
 - https://www.youtube.com/watch?v=wfDJAYTMTdk&pp=ygUMcm9zIHR1dG9yaWFs 
 - https://wiki.ros.org/ROS/Tutorials 
